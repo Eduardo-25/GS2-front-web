@@ -38,10 +38,10 @@ const Nav = () => {
           <Link to="/solucao" className="hover:text-green-300">Solução</Link>
           <Link to="/sobre" className="hover:text-green-300">Sobre</Link>
           <Link to="/login" className="hover:text-green-300">Login</Link>
-          <Link to="/cadastrar" className="hover:text-green-300">Cadastre-se</Link>
+          <Link to="/cadastrar" className="hover:text-green-300">Cadastrar</Link>
           <button 
             onClick={handleLogout} 
-            className="bg-green-300 hover:bg-green-200 text-green-900 font-semibold py-1 px-4 rounded-lg transition duration-200"
+            className="hover:text-green-300"
           >
             Logout
           </button>
